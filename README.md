@@ -1,7 +1,7 @@
 # About the Project
  This is a Voice controlled Application. We can simply speak command and get the output. This web application consist of News,General talk & calendar. User can give commands like 'What is my Timezone?' , 'Show me the latest news from CNN' and many more like this. 
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
