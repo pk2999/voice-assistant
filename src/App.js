@@ -8,7 +8,7 @@ import alan from './image/alan.jpg';
 import { NewsCards, Modal } from './components';
 import useStyles from './styles';
 
-// const alanKey='b9a1beca0a2c16cdba40fd8c3b6d0d392e956eca572e1d8b807a3e2338fdd0dc/stage'
+
 
 const App = () => {
   const [activeArticle, setActiveArticle] = useState(0);
@@ -62,8 +62,7 @@ const App = () => {
         <div className={classes.footer}>
           <Typography variant="body1" component="h2">
             Created by
-            {/* <a className={classes.link} href="https://www.linkedin.com/in/adrian-hajdin/"> Adrian Hajdin</a> - */}
-            <a className={classes.link} href="http://instagram.com">Pankaj Kumar</a>
+            <a className={classes.link} href="http://instagram.com"> Pankaj Kumar</a>
           </Typography>
           <img className={classes.image} src={logo} height="50px" alt="PK logo" />
         </div>
