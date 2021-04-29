@@ -63,7 +63,7 @@ const App = () => {
           <Typography variant="body1" component="h2">
             Created by
             {/* <a className={classes.link} href="https://www.linkedin.com/in/adrian-hajdin/"> Adrian Hajdin</a> - */}
-            <a className={classes.link} href="http://instagram.com">PK Mastery</a>
+            <a className={classes.link} href="http://instagram.com">Pankaj Kumar</a>
           </Typography>
           <img className={classes.image} src={logo} height="50px" alt="PK logo" />
         </div>
