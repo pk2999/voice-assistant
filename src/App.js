@@ -4,7 +4,7 @@ import wordsToNumbers from 'words-to-numbers';
 import alanBtn from '@alan-ai/alan-sdk-web';
 
 import logo from './image/logo.png';
-import alan from './image/alan.jpg';
+import alan from './image/alan.png';
 import { NewsCards, Modal } from './components';
 import useStyles from './styles';
 
@@ -56,6 +56,9 @@ const App = () => {
         ) : null}
         <img src={alan} className={classes.alanLogo} alt="alan logo" />
       </div>
+          <div className={classes.description}>
+          <Typography variant="h6" color="textPrimary">This is fully voice controlled web application. We can see latest news by saying 'Show me the latest News from BBC' and this will pop up the new window containing news. Moreover we can do simple 'general talk'. There is also a interesting 'Calendar' feature. </Typography>
+          </div>
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
       <Modal isOpen={isOpen} setIsOpen={setIsOpen} />
       {!newsArticles.length ? (

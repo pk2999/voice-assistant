@@ -65,12 +65,17 @@ export default makeStyles((theme) => ({
     },
   },
   alanLogo: {
-    height: '20vmin',
+    height: '30vmin',
     borderRadius: '15%',
     padding: '0 5%',
     margin: '3% 5%',
     [theme.breakpoints.down('sm')]: {
-      height: '35vmin',
+      height: '30vmin',
     },
+  },
+  description:{
+    padding: '0 5%',
+    margin:'2% 5%',
+    
   },
 }));
